@@ -43,6 +43,6 @@ sim:/Project_TB/tb/uart_inst/tx_counter \
 sim:/Project_TB/tb/uart_inst/rx_reg \
 sim:/Project_TB/tb/uart_inst/rx_counter
 add wave -position insertpoint  \
-sim:/Project_TB/tb/BCLK
+sim:/Project_TB/tb/baud_tick
 run -all
 #quit -sim
