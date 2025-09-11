@@ -38,7 +38,7 @@ The design enables reliable serial communication (TX/RX) while being memory-mapp
 ### 🖥️ UART Module
 - **Transmitter:** Loads data with start (0) and stop (1) bits, shifts out serially with correct timing.  
 - **Receiver:** Detects start bit, samples 8 data bits, validates stop bit, asserts `rx_done` when complete.  
-- **Error Detection:** Flags invalid frames (e.g., missing stop bit).  
+- **Error Detection:** Flags invalid frames.  
 - **Status Signals:** `tx_busy`, `tx_done`, `rx_busy`, `rx_done`, `rx_error`.  
 
 ### 📦 APB Slave
