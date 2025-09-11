@@ -22,14 +22,14 @@ The design enables reliable serial communication (TX/RX) while being memory-mapp
 
 | Path | Description |
 |---|---|
-| `UART_module.v` | UART core (transmitter, receiver, error detection) |
-| `APB_Slave.v` | APB slave interface (register decode, control/status logic) |
-| `Baud.v` | Baud rate generator (9600 baud default) |
-| `UART_APB_Top.v` | Top-level wrapper integrating UART, APB, and Baud |
-| `Project_TB.v` | Testbench verifying UART + APB communication |
-| `run.do` | QuestaSim automation script (compile, simulate, waveforms) |
-| `constraints.xdc` | Pin & clock constraints (for FPGA board mapping) |
-| `Project Report.pdf` | Final report with design explanation, waveforms, lint, and synthesis results |
+| [**UART Module**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/src/UART_module.v) | UART core (transmitter, receiver, error detection) |
+| [**APB Slave Module**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/src/APB_Master.v) | APB slave interface (register decode, control/status logic) |
+| [**Baud Module**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/src/Baud.v) | Baud rate generator (9600 baud default) |
+| [**Top Module.v**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/src/UART_module.v) | Top-level wrapper integrating UART, APB, and Baud |
+| [**Test Bench**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/dv/Project_TB.v) | Testbench verifying UART + APB communication |
+| [**Run File**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/dv/NTI.do) | QuestaSim automation script (compile, simulate, waveforms) |
+| [**Constraints File**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/dv/Constraint_UART_APB.xdc) | Pin & clock constraints (for FPGA board mapping) |
+| [**Project Report**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/docs/Project%20Report.pdf) | Final report with design explanation, waveforms, lint, and synthesis results |
 
 ---
 
@@ -83,7 +83,7 @@ The design can be reused as a SoC peripheral, supporting reliable serial communi
 ---
 
 ## 🧑‍💻 Designed By
-- [**Ahmed Belal**](https://github.com/ahmedbelal16)  
+- [**Ahmed Belal**] 
 
 ---
 
