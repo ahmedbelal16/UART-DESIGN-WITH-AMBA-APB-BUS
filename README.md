@@ -28,7 +28,7 @@ The design enables reliable serial communication (TX/RX) while being memory-mapp
 | [**Top Module.v**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/src/Top_Module.v) | Top-level wrapper integrating UART, APB, and Baud |
 | [**Test Bench**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/dv/Project_TB.v) | Testbench verifying UART + APB communication |
 | [**Run File**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/dv/NTI.do) | QuestaSim automation script (compile, simulate, waveforms) |
-| [**Constraints File**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/dv/Constraint_UART_APB.xdc) | Pin & clock constraints (for FPGA board mapping) |
+| [**Constraints File**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/dv/Constraint_UART_APB.xdc) | Clock constraints |
 | [**Project Report**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/docs/Project%20Report.pdf) | Final report with design explanation, waveforms, lint, and synthesis results |
 
 ---
