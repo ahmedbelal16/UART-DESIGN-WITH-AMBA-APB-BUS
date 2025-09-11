@@ -83,7 +83,7 @@ The design can be reused as a SoC peripheral, supporting reliable serial communi
 ---
 
 ## 🧑‍💻 Designed By
-- [**Ahmed Belal**] 
+- **Ahmed Belal** 
 
 ---
 
