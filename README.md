@@ -25,7 +25,7 @@ The design enables reliable serial communication (TX/RX) while being memory-mapp
 | [**UART Module**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/src/UART_module.v) | UART core (transmitter, receiver, error detection) |
 | [**APB Slave Module**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/src/APB_Master.v) | APB slave interface (register decode, control/status logic) |
 | [**Baud Module**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/src/Baud.v) | Baud rate generator (9600 baud default) |
-| [**Top Module.v**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/src/UART_module.v) | Top-level wrapper integrating UART, APB, and Baud |
+| [**Top Module.v**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/src/Top_Module.v) | Top-level wrapper integrating UART, APB, and Baud |
 | [**Test Bench**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/dv/Project_TB.v) | Testbench verifying UART + APB communication |
 | [**Run File**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/dv/NTI.do) | QuestaSim automation script (compile, simulate, waveforms) |
 | [**Constraints File**](https://github.com/ahmedbelal16/UART-DESIGN-WITH-AMBA-APB-BUS/blob/main/dv/Constraint_UART_APB.xdc) | Pin & clock constraints (for FPGA board mapping) |
